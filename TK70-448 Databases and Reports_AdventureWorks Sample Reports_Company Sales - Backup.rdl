@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="AdventureWorks">
+      <rd:DataSourceID>25d3314c-0d4f-49cc-9c22-10194e825490</rd:DataSourceID>
+      <DataSourceReference>AdventureWorks</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <Description>Adventure Works sales by quarter and product category. This report illustrates the use of a matrix data region that provides drilldown from summary data into detail data by showing and hiding rows. This report also illustrates the use of background images.</Description>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <rd:GridSpacing>0.0625in</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0.5in</RightMargin>
+  <LeftMargin>0.5in</LeftMargin>
+  <BottomMargin>0.5in</BottomMargin>
+  <rd:ReportID>312657d4-5053-4f4c-b4fa-c580a92fd43b</rd:ReportID>
+  <EmbeddedImages>
+    <EmbeddedImage Name="logoback">
+      <ImageData>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</ImageData>
+      <MIMEType>image/jpeg</MIMEType>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <DataSets>
+    <DataSet Name="Sales">
+      <Fields>
+        <Field Name="ProdCat">
+          <DataField>ProdCat</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SubCat">
+          <DataField>SubCat</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="OrderYear">
+          <DataField>OrderYear</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="OrderQtr">
+          <DataField>OrderQtr</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Sales">
+          <DataField>Sales</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>AdventureWorks</DataSourceName>
+        <CommandText>SET DATEFORMAT mdy
+SELECT      PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr, 
+            SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
+FROM        Production.ProductSubcategory PS INNER JOIN
+            Sales.SalesOrderHeader SOH INNER JOIN
+            Sales.SalesOrderDetail SOD ON SOH.SalesOrderID = SOD.SalesOrderID INNER JOIN
+            Production.Product P ON SOD.ProductID = P.ProductID ON PS.ProductSubcategoryID = P.ProductSubcategoryID INNER JOIN
+            Production.ProductCategory PC ON PS.ProductCategoryID = PC.ProductCategoryID
+WHERE       (SOH.OrderDate BETWEEN '1/1/2002' AND '12/31/2003')
+GROUP BY    DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.OrderDate), PS.ProductSubcategoryID</CommandText>
+        <Timeout>30</Timeout>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <Width>3.22917in</Width>
+  <Body>
+    <ReportItems>
+      <Textbox Name="Title">
+        <Width>3.125in</Width>
+        <Top>0.0625in</Top>
+        <Style>
+          <Color>DarkSlateBlue</Color>
+          <FontFamily>Tahoma</FontFamily>
+          <FontSize>18pt</FontSize>
+          <FontWeight>800</FontWeight>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <Height>0.9375in</Height>
+        <Value>Adventure Works 
+2002 - 2003
+Sales</Value>
+        <Left>0.0625in</Left>
+      </Textbox>
+      <Matrix Name="SalesMatrix">
+        <MatrixColumns>
+          <MatrixColumn>
+            <Width>0.875in</Width>
+          </MatrixColumn>
+        </MatrixColumns>
+        <DataSetName>Sales</DataSetName>
+        <RowGroupings>
+          <RowGrouping>
+            <Width>1.125in</Width>
+            <DynamicRows>
+              <ReportItems>
+                <Textbox Name="Category">
+                  <Style>
+                    <Color>White</Color>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>2pt</PaddingRight>
+                    <BackgroundColor>SteelBlue</BackgroundColor>
+                  </Style>
+                  <ZIndex>2</ZIndex>
+                  <Value>=Fields!ProdCat.Value</Value>
+                </Textbox>
+              </ReportItems>
+              <Grouping Name="ProductCategory">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!ProdCat.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Sorting>
+                <SortBy>
+                  <SortExpression>=Fields!ProdCat.Value</SortExpression>
+                  <Direction>Descending</Direction>
+                </SortBy>
+              </Sorting>
+            </DynamicRows>
+          </RowGrouping>
+          <RowGrouping>
+            <Width>1.125in</Width>
+            <DynamicRows>
+              <Visibility>
+                <Hidden>true</Hidden>
+                <ToggleItem>Category</ToggleItem>
+              </Visibility>
+              <ReportItems>
+                <Textbox Name="SubCategory">
+                  <Style>
+                    <Color>White</Color>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>2pt</PaddingRight>
+                    <BackgroundColor>SteelBlue</BackgroundColor>
+                  </Style>
+                  <ZIndex>1</ZIndex>
+                  <Value>=Fields!SubCat.Value</Value>
+                </Textbox>
+              </ReportItems>
+              <Grouping Name="ProductSubcategory">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!SubCat.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Sorting>
+                <SortBy>
+                  <SortExpression>=Fields!SubCat.Value</SortExpression>
+                  <Direction>Ascending</Direction>
+                </SortBy>
+              </Sorting>
+            </DynamicRows>
+          </RowGrouping>
+        </RowGroupings>
+        <MatrixRows>
+          <MatrixRow>
+            <MatrixCells>
+              <MatrixCell>
+                <ReportItems>
+                  <Textbox Name="Sales">
+                    <Style>
+                      <BorderStyle>
+                        <Default>Solid</Default>
+                      </BorderStyle>
+                      <FontSize>9pt</FontSize>
+                      <Format>C0</Format>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <BackgroundColor>White</BackgroundColor>
+                    </Style>
+                    <Value>=Sum(Fields!Sales.Value)</Value>
+                  </Textbox>
+                </ReportItems>
+              </MatrixCell>
+            </MatrixCells>
+            <Height>0.25in</Height>
+          </MatrixRow>
+        </MatrixRows>
+        <Top>1.0625in</Top>
+        <ColumnGroupings>
+          <ColumnGrouping>
+            <DynamicColumns>
+              <ReportItems>
+                <Textbox Name="OrderYear">
+                  <Style>
+                    <Color>White</Color>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <TextAlign>Left</TextAlign>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>2pt</PaddingRight>
+                    <BackgroundColor>SteelBlue</BackgroundColor>
+                  </Style>
+                  <ZIndex>4</ZIndex>
+                  <Value>=Fields!OrderYear.Value</Value>
+                </Textbox>
+              </ReportItems>
+              <Grouping Name="OrderYear">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!OrderYear.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Sorting>
+                <SortBy>
+                  <SortExpression>=Fields!OrderYear.Value</SortExpression>
+                  <Direction>Ascending</Direction>
+                </SortBy>
+              </Sorting>
+            </DynamicColumns>
+            <Height>0.25in</Height>
+          </ColumnGrouping>
+          <ColumnGrouping>
+            <DynamicColumns>
+              <Visibility>
+                <Hidden>true</Hidden>
+                <ToggleItem>OrderYear</ToggleItem>
+              </Visibility>
+              <ReportItems>
+                <Textbox Name="OrderQuarter">
+                  <Style>
+                    <Color>White</Color>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <TextAlign>Center</TextAlign>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>2pt</PaddingRight>
+                    <BackgroundColor>SteelBlue</BackgroundColor>
+                  </Style>
+                  <ZIndex>3</ZIndex>
+                  <Value>=Fields!OrderQtr.Value</Value>
+                </Textbox>
+              </ReportItems>
+              <Grouping Name="OrderQtr">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!OrderQtr.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Sorting>
+                <SortBy>
+                  <SortExpression>=Fields!OrderQtr.Value</SortExpression>
+                  <Direction>Ascending</Direction>
+                </SortBy>
+              </Sorting>
+            </DynamicColumns>
+            <Height>0.25in</Height>
+          </ColumnGrouping>
+        </ColumnGroupings>
+        <Width>3.125in</Width>
+        <Corner>
+          <ReportItems>
+            <Textbox Name="textbox1">
+              <Style>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+              </Style>
+              <ZIndex>5</ZIndex>
+              <Value />
+            </Textbox>
+          </ReportItems>
+        </Corner>
+        <Style />
+        <Height>0.75in</Height>
+        <Left>0.0625in</Left>
+      </Matrix>
+    </ReportItems>
+    <Height>1.875in</Height>
+    <Style>
+      <BackgroundImage>
+        <Source>Embedded</Source>
+        <Value>logoback</Value>
+      </BackgroundImage>
+    </Style>
+  </Body>
+  <TopMargin>0.5in</TopMargin>
+</Report>

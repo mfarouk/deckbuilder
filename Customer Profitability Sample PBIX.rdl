@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily">
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>f6e1b01d-571d-49e2-b588-d878ca0ab3e5</rd:ReportID>
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="CustomerProfitabilitySamplePBIX">
+      <ConnectionProperties>
+        <DataProvider>PBIDATASET</DataProvider>
+        <ConnectString>Data Source=pbiazure://analysis.windows.net/powerbi/api;Initial Catalog=sobe_wowvirtualserver-f60b161c-181f-46a1-a790-b549a305a3ae;Location="https://wabi-us-central-a-primary-redirect.analysis.windows.net/xmla?vs=sobe_wowvirtualserver&amp;db=f60b161c-181f-46a1-a790-b549a305a3ae"</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>f60b161c-181f-46a1-a790-b549a305a3ae</rd:DataSourceID>
+      <rd:PowerBIWorkspaceName>
+      </rd:PowerBIWorkspaceName>
+      <rd:PowerBIDatasetName>CustomerProfitabilitySamplePBIX</rd:PowerBIDatasetName>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="ReportTitle">
+            <rd:WatermarkTextbox>Title</rd:WatermarkTextbox>
+            <rd:DefaultName>ReportTitle</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Customer Profitability Sample PBIX</Value>
+                    <Label>DatasourceName</Label>
+                    <Style>
+                      <FontFamily>Segoe UI Light</FontFamily>
+                      <FontSize>28pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Height>0.5in</Height>
+            <Width>5.5in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox1">
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>https://aka.ms/priad-online-course</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontSize>0.14583in</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#0066cc</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <ActionInfo>
+              <Actions>
+                <Action>
+                  <Hyperlink>https://aka.ms/priad-online-course</Hyperlink>
+                </Action>
+              </Actions>
+            </ActionInfo>
+            <Top>0.81125in</Top>
+            <Left>1.22792in</Left>
+            <Height>0.25in</Height>
+            <Width>2.33333in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>2.25in</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>6in</Width>
+      <Page>
+        <LeftMargin>1in</LeftMargin>
+        <RightMargin>1in</RightMargin>
+        <TopMargin>1in</TopMargin>
+        <BottomMargin>1in</BottomMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <CustomProperties>
+    <CustomProperty>
+      <Name>ReportGeneratorTemplate</Name>
+      <Value>DefaultRDLForPBIDataset</Value>
+    </CustomProperty>
+  </CustomProperties>
+</Report>
