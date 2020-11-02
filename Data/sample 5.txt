@@ -1,0 +1,98 @@
+SELECT 
+CAST ( '257513'        as [varchar](128) ) as [program],
+CAST ( ''        as [varchar](128) ) as [project],
+CAST ( 'Program'        as [varchar](128) ) as [level],
+CAST ( '257513'      as [varchar](128) ) as [id],
+CAST ( 'Global Markets Reference Data Program'      as [varchar](128) ) as [name],
+CAST ( ''      as [varchar](128) ) as [status],
+CAST ( 'G'      as [varchar](128) ) as [rag],
+CAST ( ''        as [date]         ) as [startDate],  
+CAST ( ''        as [date]         ) as [endDate]  
+UNION ALL
+SELECT 
+CAST ( '257513'        as [varchar](128) ) as [program],
+CAST ( '389888'        as [varchar](128) ) as [project],
+CAST ( 'PPRT Project'        as [varchar](128) ) as [level],
+CAST ( '389888'      as [varchar](128) ) as [id],
+CAST ( 'GMOT Reference Data Project'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2021-02-01'        as [date]         ) as [startDate],  
+CAST ( '2021-02-28'        as [date]         ) as [endDate]  
+UNION ALL
+SELECT 
+CAST ( '257513'        as [varchar](128) ) as [program],
+CAST ( '389888'        as [varchar](128) ) as [project],
+CAST ( 'Commitment'        as [varchar](128) ) as [level],
+CAST ( 'TPK-1'      as [varchar](128) ) as [id],
+CAST ( 'Lorem Ipsum'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'Y'      as [varchar](128) ) as [rag],
+CAST ( '2020-10-01'        as [date]         ) as [startDate],  
+CAST ( '2020-10-09'        as [date]         ) as [endDate]  
+UNION ALL
+SELECT 
+CAST ( '257513'        as [varchar](128) ) as [program],
+CAST ( '389888'        as [varchar](128) ) as [project],
+CAST ( 'Non-Commitment'        as [varchar](128) ) as [level],
+CAST ( 'TPK-3'      as [varchar](128) ) as [id],
+CAST ( 'GBAMT Data: Reference Data Consolidation...'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'R'      as [varchar](128) ) as [rag],
+CAST ( '2020-12-01'        as [date]         ) as [startDate],  
+CAST ( '2020-12-05'        as [date]         ) as [endDate]  
+UNION ALL
+SELECT 
+CAST ( '257513'        as [varchar](128) ) as [program],
+CAST ( '389888'        as [varchar](128) ) as [project],
+CAST ( 'PPRT Project'        as [varchar](128) ) as [level],
+CAST ( '302311'      as [varchar](128) ) as [id],
+CAST ( 'Lorem Ipsum'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( ''      as [varchar](128) ) as [rag],
+CAST ( '2020-06-01'        as [date]         ) as [startDate],  
+CAST ( '2020-06-30'        as [date]         ) as [endDate] 
+UNION ALL
+SELECT 
+CAST ( '257513'        as [varchar](128) ) as [program],
+CAST ( '389888'        as [varchar](128) ) as [project],
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '98765'      as [varchar](128) ) as [id],
+CAST ( 'Lorem Ipsum'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2020-05-01'        as [date]         ) as [startDate],  
+CAST ( '2020-05-01'        as [date]         ) as [endDate] 
+UNION ALL
+SELECT 
+CAST ( '257513'        as [varchar](128) ) as [program],
+CAST ( '389888'        as [varchar](128) ) as [project],
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '12345'      as [varchar](128) ) as [id],
+CAST ( 'Reference Data Optimization - the build of additional sourcing into ADS PME Fusion enables the adoption of Equities Electronic Trading'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2020-10-01'        as [date]         ) as [startDate],  
+CAST ( '2020-10-31'        as [date]         ) as [endDate] 
+UNION ALL
+SELECT 
+CAST ( '257513'        as [varchar](128) ) as [program],
+CAST ( '389888'        as [varchar](128) ) as [project],
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '302311'      as [varchar](128) ) as [id],
+CAST ( 'Lorem Ipsum'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2021-10-01'        as [date]         ) as [startDate],  
+CAST ( '2021-10-31'        as [date]         ) as [endDate] 
+UNION ALL
+SELECT 
+CAST ( '257513'        as [varchar](128) ) as [program],
+CAST ( '389888'        as [varchar](128) ) as [project],
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '302311'      as [varchar](128) ) as [id],
+CAST ( 'Lorem Ipsum'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2021-10-01'        as [date]         ) as [startDate],  
+CAST ( '2021-10-31'        as [date]         ) as [endDate] 

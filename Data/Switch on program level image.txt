@@ -1,0 +1,13 @@
+=Switch 
+(
+  Parameters!UserFranNr.Value = "99","ID99",
+  Parameters!UserFranNr.Value = "87","ID87",
+  true, "ID0"
+)
+
+
+
+=Switch(
+Fields!level.Value Like "Non*", "red_square",
+true,"Star_Yellow"
+)

@@ -1,0 +1,38 @@
+SELECT CAST ( 'Industrial'        as [varchar](128) ) 
+as [market segment],
+CAST ( 'Pipefittings'      as [varchar](128) ) 
+as [opportunity name],
+CAST ( 'Joe User'          as [varchar](128) ) 
+as [created by],
+CAST ( '2020-10-01'        as [date]         ) 
+as [start date],
+CAST ( '2021-02-28'        as [date]         ) 
+as [complete date],
+CAST ( 'Universe'          as [varchar](128) ) 
+as [sales stage],
+CAST ( '1000000'           as [money]        ) 
+as [estimated total] 
+UNION ALL
+
+
+SELECT CAST ( 'Industrial'        as [varchar](128) ) as [market segment],
+CAST ( 'Flanges'           as [varchar](128) ) as [opportunity name],
+CAST ( 'Betty Lou'         as [varchar](128) ) as [created by],
+CAST ( '2021-01-01'        as [date]         ) as [start date],
+CAST ( '2021-06-30'        as [date]         ) as [complete date],
+CAST ( 'Early Pipeline'    as [varchar](128) ) as [sales stage],
+CAST ( '1200000'           as [money]        ) as [estimated total] UNION ALL
+SELECT CAST ( 'Commercial'        as [varchar](128) ) as [market segment],
+CAST ( 'Display Cases'     as [varchar](128) ) as [opportunity name],
+CAST ( 'John Doe'          as [varchar](128) ) as [created by],
+CAST ( '2021-02-01'        as [date]         ) as [start date],
+CAST ( '2021-10-31'        as [date]         ) as [complete date],
+CAST ( '30%'               as [varchar](128) ) as [sales stage],
+CAST ( '800000'            as [money]        ) as [estimated total] UNION ALL
+SELECT CAST ( 'Commercial'        as [varchar](128) ) as [market segment],
+CAST ( 'Overhead Lighting' as [varchar](128) ) as [opportunity name],
+CAST ( 'Richard Smith'     as [varchar](128) ) as [created by],
+CAST ( '2021-06-15'        as [date]         ) as [start date],
+CAST ( '2021-10-15'        as [date]         ) as [complete date],
+CAST ( '50%'               as [varchar](128) ) as [sales stage],
+CAST ( '50000'             as [money]        ) as [estimated total]

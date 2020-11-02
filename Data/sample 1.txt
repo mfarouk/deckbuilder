@@ -1,0 +1,56 @@
+SELECT 
+CAST ( 'Program'        as [varchar](128) ) as [level],
+CAST ( '257513'      as [varchar](128) ) as [id],
+CAST ( 'Global Markets Reference Data Program'      as [varchar](128) ) as [name],
+CAST ( ''      as [varchar](128) ) as [status],
+CAST ( 'G'      as [varchar](128) ) as [rag],
+CAST ( ''        as [date]         ) as [complete date]  
+UNION ALL
+SELECT 
+CAST ( 'PPRT Project'        as [varchar](128) ) as [level],
+CAST ( '389888'      as [varchar](128) ) as [id],
+CAST ( 'GMOT Reference Data Project'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2021-02-28'        as [date]         ) as [complete date]  
+UNION ALL
+SELECT 
+CAST ( 'PPRT Project'        as [varchar](128) ) as [level],
+CAST ( '302311'      as [varchar](128) ) as [id],
+CAST ( 'Lorem Ipsum'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( ''      as [varchar](128) ) as [rag],
+CAST ( '2021-06-30'        as [date]         ) as [complete date] 
+UNION ALL
+SELECT 
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '98765'      as [varchar](128) ) as [id],
+CAST ( 'Lorem Ipsum'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2021-05-01'        as [date]         ) as [complete date] 
+UNION ALL
+SELECT 
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '12345'      as [varchar](128) ) as [id],
+CAST ( 'Reference Data Optimization - the build of additional sourcing into ADS PME Fusion enables the adoption of Equities Electronic Trading'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2021-10-31'        as [date]         ) as [complete date] 
+UNION ALL
+SELECT 
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '302311'      as [varchar](128) ) as [id],
+CAST ( 'Lorem Ipsum'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2021-10-31'        as [date]         ) as [complete date] 
+UNION ALL
+SELECT 
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '302311'      as [varchar](128) ) as [id],
+CAST ( 'Lorem Ipsum'      as [varchar](128) ) as [name],
+CAST ( 'Active'      as [varchar](128) ) as [status],
+CAST ( 'N/A'      as [varchar](128) ) as [rag],
+CAST ( '2021-10-31'        as [date]         ) as [complete date] 
+

@@ -1,0 +1,41 @@
+SELECT 
+CAST ( '257513'      as [varchar](128) ) as [project],
+CAST ( 'Global Markets Reference Data Program'      as [varchar](128) ) as [task],
+CAST ( '2020-10-01'        as [date]         ) as [startDate],  
+CAST ( '2020-10-31'        as [date]         ) as [endDate]  
+UNION ALL
+SELECT 
+CAST ( 'PPRT Project'        as [varchar](128) ) as [level],
+CAST ( '389888'      as [varchar](128) ) as [id],
+CAST ( '2021-02-01'        as [date]         ) as [startDate],  
+CAST ( '2021-02-28'        as [date]         ) as [endDate]  
+UNION ALL
+SELECT 
+CAST ( 'PPRT Project'        as [varchar](128) ) as [level],
+CAST ( '302312'      as [varchar](128) ) as [id],
+CAST ( '2021-06-01'        as [date]         ) as [startDate],  
+CAST ( '2021-06-30'        as [date]         ) as [endDate] 
+UNION ALL
+SELECT 
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '98765'      as [varchar](128) ) as [id],
+CAST ( '2021-05-01'        as [date]         ) as [startDate],  
+CAST ( '2021-05-31'        as [date]         ) as [endDate] 
+UNION ALL
+SELECT 
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '12345'      as [varchar](128) ) as [id],
+CAST ( '2021-10-01'        as [date]         ) as [startDate],  
+CAST ( '2021-10-31'        as [date]         ) as [endDate] 
+UNION ALL
+SELECT 
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '302311'      as [varchar](128) ) as [id],
+CAST ( '2020-11-01'        as [date]         ) as [startDate],  
+CAST ( '2020-11-30'        as [date]         ) as [endDate] 
+UNION ALL
+SELECT 
+CAST ( 'TBO'        as [varchar](128) ) as [level],
+CAST ( '302313'      as [varchar](128) ) as [id],
+CAST ( '2021-10-01'        as [date]         ) as [startDate],  
+CAST ( '2021-10-31'        as [date]         ) as [endDate] 
